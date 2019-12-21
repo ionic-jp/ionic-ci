@@ -3,7 +3,11 @@ const records = [
   'angular-blank',
   'angular-conference',
   'angular-sidemenu',
-  'angular-tabs'
+  'angular-tabs',
+  'react-blank',
+  'react-conference',
+  'react-sidemenu',
+  'react-tabs'
 ];
 const auditsType = [
   "speed-index",
