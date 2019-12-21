@@ -11,10 +11,7 @@ jobs:
             - v2-dependencies-{{ checksum "package.json" }}
       - run: git reset --hard HEAD && git pull origin
       - run: npm install
-      - run: npm run angular-blank
-      - run: npm run angular-sidemenu
-      - run: npm run angular-tabs
-      - run: npm run angular-conf
+      - run: npm run build-all
       - run: npm run output
       - run: git config user.email "${GITHUB_EMAIL}"
       - run: git config user.name "${GITHUB_USERNAME}"
@@ -27,13 +24,13 @@ jobs:
           key: v2-dependencies-{{ checksum "package.json" }}
 workflows:
   version: 2
-#  normal_workflow:
-#    jobs:
-#    - build
+  normal_workflow:
+    jobs:
+    - build
   schedule_workflow:
     triggers:
       - schedule:
-          cron: "0,30 10,20,6 * * *"
+          cron: "0 10,20 * * *"
           filters:
             branches:
               only:

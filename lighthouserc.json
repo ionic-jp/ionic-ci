@@ -2,6 +2,7 @@
   "ci": {
     "collect": {
       "numberOfRuns": 1,
+      "url": ["http://localhost/"],
       "preset": "lighthouse:recommended",
       "settings": {
         "throttling-method": "simulate",
