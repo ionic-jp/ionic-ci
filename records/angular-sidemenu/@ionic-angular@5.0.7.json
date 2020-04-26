@@ -1853,5 +1853,40 @@
             "dom-size": 266
         },
         "time": 1587895385387
+    },
+    {
+        "date": "2020-04-26",
+        "datetime": "2020-04-26T20:03:34.542Z",
+        "package": "@ionic/angular@5.0.7",
+        "audits": {
+            "scriptEvaluation": 535.976000000002,
+            "other": 106.42800000000011,
+            "scriptParseCompile": 58.464000000000006,
+            "styleLayout": 43.71600000000001,
+            "parseHTML": 9.587999999999985,
+            "paintCompositeRender": 6.811999999999991,
+            "garbageCollection": 6.1,
+            "first-contentful-paint": 1852.7714999999998,
+            "first-meaningful-paint": 1852.7714999999998,
+            "load-fast-enough-for-pwa": 2356.0429999999997,
+            "speed-index": 1852.7714999999998,
+            "estimated-input-latency": 12.8,
+            "total-blocking-time": 47.5,
+            "max-potential-fid": 94.5,
+            "time-to-first-byte": 8.845,
+            "first-cpu-idle": 1852.7714999999998,
+            "interactive": 2356.0429999999997,
+            "mainthread-work-breakdown": 767.0840000000022,
+            "bootup-time": 496.1040000000005,
+            "network-requests": 26,
+            "network-rtt": 0.043999999999999984,
+            "network-server-latency": 1.649,
+            "main-thread-tasks": 7,
+            "metrics": 2356.0429999999997,
+            "total-byte-weight": 173721,
+            "render-blocking-resources": 152,
+            "dom-size": 266
+        },
+        "time": 1587931414542
     }
 ]
