@@ -18780,5 +18780,40 @@
             "dom-size": 260
         },
         "time": 1620469087875
+    },
+    {
+        "date": "2021-05-08",
+        "datetime": "2021-05-08T20:16:45.857Z",
+        "package": "@ionic/react@5.3.1",
+        "audits": {
+            "scriptEvaluation": 668.0840000000005,
+            "scriptParseCompile": 299.5360000000001,
+            "other": 194.25600000000074,
+            "styleLayout": 57.224000000000004,
+            "parseHTML": 14.523999999999981,
+            "paintCompositeRender": 14.003999999999985,
+            "first-contentful-paint": 3385.6205,
+            "first-meaningful-paint": 3385.6205,
+            "load-fast-enough-for-pwa": 4046.389,
+            "speed-index": 3662.404280403449,
+            "estimated-input-latency": 66.40000000000018,
+            "total-blocking-time": 458.4630000000004,
+            "max-potential-fid": 436.00000000000045,
+            "time-to-first-byte": 8.719,
+            "first-cpu-idle": 4088.9260000000004,
+            "interactive": 4046.389,
+            "mainthread-work-breakdown": 1247.628000000001,
+            "bootup-time": 836.9559999999999,
+            "network-requests": 38,
+            "network-rtt": 1.088,
+            "network-server-latency": 44.91400000000001,
+            "main-thread-tasks": 8,
+            "metrics": 4046.389,
+            "uses-long-cache-ttl": 36527.7375,
+            "total-byte-weight": 551802,
+            "render-blocking-resources": 305,
+            "dom-size": 260
+        },
+        "time": 1620505005857
     }
 ]
